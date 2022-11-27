@@ -1,0 +1,101 @@
+body {
+    background-color: #DFF6FF !important;
+}
+
+.container-fluid {
+    padding: 5% 7% 1%;
+}
+
+img {
+    width: 20%;
+}
+
+.name {
+    font-family: 'PT Mono', monospace;
+    font-size: 3rem;
+    margin: 3%;
+}
+
+.quote {
+    font-family: 'Ms Madi', cursive;
+    font-size: 2rem;
+    width: 50%;
+    margin: auto;
+}
+
+.middle-section {
+    /* background-color: #fff; */
+    padding: 3% 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.element {
+    width: 30%;
+    margin: 20px auto !important;
+}
+
+#phoneNumber {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#phone {
+    display: block;
+}
+
+
+i {
+    font-size: 2rem;
+}
+
+.btn {
+    --bs-btn-padding-y: 2rem !important;
+    --bs-btn-padding-x: 0rem !important;
+    --bs-btn-font-size: 1.5rem !important;
+    --bs-btn-bg: #fff !important;
+    --bs-btn-border-color: #fff !important;
+}
+
+.item {
+    display: inline-block;
+}
+
+.footer {
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+@media (max-width: 1028px) {
+    .element {
+        width: 80%;
+    }
+
+    img {
+        width: auto;
+    }
+
+    .name {
+        font-size: 5rem;
+    }
+
+    .quote {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        --bs-btn-padding-y: 3rem !important;
+        --bs-btn-padding-x: 0rem !important;
+        --bs-btn-font-size: 2.5rem !important;
+    }
+
+    #phoneNumber {
+        padding: 3rem 0rem;
+        font-size: 2.5rem;
+    }
+
+    .footer {
+        font-size: 1.5rem;
+    }
+}
